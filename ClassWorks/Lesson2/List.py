@@ -34,6 +34,22 @@ l1.append('b')
 l1.append('c')
 print(l1)
 
-pullOut = l1.pop(3)
+pullOut = l1.pop(2)
 print(l1)
 print(pullOut)
+
+ch = [1, 'hello']
+cap = ch
+print(ch)
+print(cap)
+
+cap.append('new parameter')
+print(ch)
+print(cap)
+
+cop = ch.copy()
+print(cop)
+
+cop.append('another parameter')
+print(cop)
+print(ch)

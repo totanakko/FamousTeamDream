@@ -11,45 +11,51 @@ s = """There has been a lot of research which shows the importance
 l = s.split(" ")
 print(l)
 
-l1 = ['a', 'b', 'c']
-print(l1)
+listSplitByDot = s.split(".")
+print(listSplitByDot)
 
-print(l[6])
-s1 = l[6]
-print(s1)
+listSplitBySymbola = s.split("a")
+print(listSplitBySymbola)
 
-s2 = " ".join(l)
-print(s2)
-lis1 = l
-lis1.sort()
-print(lis1)
-
-l1 = ['a']
-print(l1)
-l1.append('b')
-print(l1)
-del l1[1]
-print(l1)
-l1.append('b')
-l1.append('c')
-print(l1)
-
-pullOut = l1.pop(2)
-print(l1)
-print(pullOut)
-
-ch = [1, 'hello']
-cap = ch
-print(ch)
-print(cap)
-
-cap.append('new parameter')
-print(ch)
-print(cap)
-
-cop = ch.copy()
-print(cop)
-
-cop.append('another parameter')
-print(cop)
-print(ch)
+# l1 = ['a', 'b', 'c']
+# print(l1)
+#
+# print(l[6])
+# s1 = l[6]
+# print(s1)
+#
+# s2 = " ".join(l)
+# print(s2)
+# lis1 = l
+# lis1.sort()
+# print(lis1)
+#
+# l1 = ['a']
+# print(l1)
+# l1.append('b')
+# print(l1)
+# del l1[1]
+# print(l1)
+# l1.append('b')
+# l1.append('c')
+# print(l1)
+#
+# pullOut = l1.pop(2)
+# print(l1)
+# print(pullOut)
+#
+# ch = [1, 'hello']
+# cap = ch
+# print(ch)
+# print(cap)
+#
+# cap.append('new parameter')
+# print(ch)
+# print(cap)
+#
+# cop = ch.copy()
+# print(cop)
+#
+# cop.append('another parameter')
+# print(cop)
+# print(ch)

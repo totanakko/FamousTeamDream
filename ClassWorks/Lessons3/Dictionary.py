@@ -30,3 +30,20 @@ person['street'] = listS[3]
 person['date'] = listS[4]
 
 print(person)
+
+s1 = "Samoylov Stepan Odessa Marselskaya_11 09.11.1999"
+listS = s1.split(" ")
+
+listOfDict = []
+listOfDict.append(person)
+print("Create List of Dictionary")
+print(listOfDict)
+
+person['lastName'] = listS[0]
+person['firstName'] = listS[1]
+person['city'] = listS[2]
+person['street'] = listS[3]
+person['date'] = listS[4]
+
+listOfDict.append(person)
+print(person)

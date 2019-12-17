@@ -18,4 +18,15 @@ dic1 = {}
 d4 = dict.fromkeys(['a', 'b', 'c'], 100)
 print(d4, type(d4))
 
+person = {}
 
+s = "Ivanov Ivan Odessa Marselskaya_49 23.04.1986"
+listS = s.split(" ")
+
+person['lastName'] = listS[0]
+person['firstName'] = listS[1]
+person['city'] = listS[2]
+person['street'] = listS[3]
+person['date'] = listS[4]
+
+print(person)

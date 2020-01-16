@@ -3,3 +3,4 @@ del List[3]
 print(List)
 del List[4]
 print(List)
+XD

@@ -1,0 +1,52 @@
+.header {
+    display: block;
+    background: url(../Header/Header_Cofee.jpg);
+    height: 90px;
+}
+
+.wrapper {
+    background-color: bisque;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 100%;
+    min-height: 3000px;
+}
+
+body {
+    background: burlywood;
+}
+
+div {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.sidebar {
+    height: 50em;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.navbut {
+    border-spacing: 0 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 5px 5px;
+    background: #56433D;
+    color: #F9C941;
+    border-right: 2px solid;
+    font-size: 0.9em;
+}
+.sidebarImg {
+    margin: 0 auto;
+    width: 100%;
+}
+.h3{
+    font-style: normal;
+}
+
+

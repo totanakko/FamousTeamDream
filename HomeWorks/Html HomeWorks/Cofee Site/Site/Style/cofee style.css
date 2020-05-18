@@ -1,0 +1,90 @@
+.header {
+    display: block;
+    background: url(../Header/Header_Cofee.jpg);
+    height: 90px;
+}
+
+.wrapper {
+    background-color: bisque;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 100%;
+    min-height: 3000px;
+}
+
+table {
+    border-spacing: 0 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+th {
+    padding: 9px 9px;
+    background: #56433D;
+    color: #F9C941;
+    border-right: 2px solid;
+    font-size: 0.9em;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td {
+    vertical-align: middle;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+    border-top: 2px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D;
+}
+
+td:first-child {
+    border-left: 2px solid #56433D;
+    border-right: none;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+body {
+    background: burlywood;
+}
+
+div {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.sidebar {
+    height: 50em;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.navbut {
+    border-spacing: 0 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 5px 5px;
+    background: #56433D;
+    color: #F9C941;
+    border-right: 2px solid;
+    font-size: 0.9em;
+}
+.sidebarImg {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
